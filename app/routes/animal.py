@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from ..models import Animal
+from fastapi import HTTPException
 
 router = APIRouter()
 
